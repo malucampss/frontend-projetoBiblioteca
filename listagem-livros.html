@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista Clientes</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+    <link rel="stylesheet" href="css/listagem.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="listagem-livros.html">LIVROS</a>
+            <a href="listagem-alunos.html">ALUNOS</a>
+            <a href="listagem-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <div class="painel">
+        <div class="esquerda">
+            <div>
+                <a href="/cadastro-livro.html">NOVO LIVRO</a>
+            </div>
+        </div>
+        <div class="meio">
+            <h1>LIVROS</h1>
+        </div>
+        <div class="direita"></div>
+    </div>
+    <div class="container-tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID LIVRO</th>
+                    <th>TITULO</th>
+                    <th>AUTOR</th>
+                    <th>EDITORA</th>
+                    <th>ANO PUBLICAÇÃO</th>
+                    <th>ISBN</th>
+                    <th>QUANT TOTAL</th>
+                    <th>QUANT DISPONIVEL</th>
+                    <th>VALOR AQUISIÇÃO</th>
+                    <th>STATUS LIVRO EMPRESTADO</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>O SEGREDO DAS ESTRELAS</td>
+                    <td>HELENA MARTINS</td>
+                    <td>NOVA PÁGINA</td>
+                    <td>2015</td>
+                    <td>978-85-12345-01-7</td>
+                    <td>105</td>
+                    <td>62</td>
+                    <td>R$ 45,00</td>
+                    <td> INDISPONIVEL</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>VIAGEM AO CORAÇÃO DA TERRA</td>
+                    <td>RICARDO ALMEIDA</td>
+                    <td>HORIZONTES LITERÁRIOS</td>
+                    <td>2018</td>
+                    <td>978-85-67890-02-4</td>
+                    <td>200</td>
+                    <td>188</td>
+                    <td>R$ 62,00</td>
+                    <td> DISPONIVEL </td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>A MAGIA DOS DIAS SIMPLES</td>
+                    <td>LARISSA COSTA</td>
+                    <td>ENCANTO EDITORIAL</td>
+                    <td>2021</td>
+                    <td>978-85-56789-03-6</td>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>R$ 38,00</td>
+                    <td>  DISPONIVEL  </td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

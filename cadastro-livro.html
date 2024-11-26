@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Livros</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="listagem-livros.html">LIVROS</a>
+            <a href="listagem-alunos.html">ALUNOS</a>
+            <a href="listagem-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DOS LIVROS</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="titulo">
+               Titulo
+                <br>
+                <input type="text" name="input-titulo-livro" placeholder="Titulo" required>
+            </label>
+            <label for="autor">
+                Autor
+                <br>
+                <input type="text" name="input-autor-livro" placeholder="Informe o autor" required>
+            </label>
+            <label for="editora">
+                Editora
+                <br>
+                <input type="text" name="input-editora-livro"  placeholder="Informe a editora" required>
+            </label>
+            <label for="ano publicacao">
+                Ano Publicacao
+                <br>
+                <input type="text" name="input-ano-publicao-livro" placeholder="Informe o ano de publicacao" required>
+            </label>
+            <label for="isbn">
+                Isbn
+                <br>
+                <input type="text" name="input-isbn-livro" placeholder="Informe o isbn" required>
+            </label>
+            <label for="quantTotal">
+                QuantTotal
+                <br>
+                <input type="number" name="input-quantTotal-livro"  placeholder="Informe a quantTotal" required>
+            </label>
+            <label for="quantDisponivel">
+                QuantDisponivel
+                <br>
+                <input type="number" name="input-quantDisponivel-livro"  placeholder="Informe a quantDisponivel" required>
+            </label>
+            <label for="valorAquisicao">
+                ValorAquisicao
+                <br>
+                <input type="number" name="input-valorAquisicao-livro"  placeholder="Informe o valorAquisicao" required>
+            </label>
+            <label for="statusLivroEmprestado">
+                StatusLivroEmprestado
+                <br>
+                <input type="text" name="input-statusLivroEmprestado-livro"  placeholder="Informe o statusLivroEmprestado" required>
+            </label>
+
+            <input type="button" value="CADASTRAR">
+        </form>
+    </div>
+</body>
+
+</html>

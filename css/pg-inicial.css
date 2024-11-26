@@ -1,0 +1,42 @@
+.principal {
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerdo,
+.direito {
+    width: 50%;
+}
+
+.esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.esquerdo img {
+    width: 50%;
+    margin-top: 15%;
+}
+
+.esquerdo div {
+    margin-top: 7%;
+}
+
+.esquerdo p {
+    font-size: 26px;
+    text-align: center;
+}
+
+.direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.direito img {
+    width: 500px;
+}

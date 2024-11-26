@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro pedidos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="listagem-livros.html">LIVROS</a>
+            <a href="listagem-alunos.html">ALUNOS</a>
+            <a href="listagem-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <h1>CADASTRO DOS EMPRESTIMOS</h1>
+    <div class="container-formulario">
+        <form action="">
+            <label for="id emprestimo">
+               Id Emprestimo
+                <br>
+                <input type="number" name="input-idEmprestimo-emprestimo" placeholder="Informe o id" required>
+            </label>
+            <label for="id aluno">
+                Id Aluno
+                <br>
+                <input type="number" name="input-idAluno-emprestimo" placeholder="Informe o id" required>
+            </label>
+            <label for="id livro">
+                Id Livro
+                <br>
+                <input type="number" name="input-idLivro-emprestimo"  placeholder="Informe o id" required>
+            </label>
+            <label for="data emprestimo">
+                Data do Emprestimo
+                <br>
+                <input type="date" name="input-dataEmprestimo-emprestimo" placeholder="Insira a data do emprestimo" required>
+            </label>
+            <label for="data devolucao">
+                Data da Devolução
+                <br>
+                <input type="date" name="input-dataDevolucao-emprestimo" placeholder="Insira a data da devolucao" required>
+            </label>
+            <label for="status emprestimo">
+                Status do Emprestimo
+                <br>
+                <input type="date" name="input-statusEmprestimo-emprestimo" placeholder="Insira o status do emprestimo" required>
+            </label>
+
+            <input type="button" value="CADASTRAR">
+        </form>
+    </div>
+</body>
+
+</html>
