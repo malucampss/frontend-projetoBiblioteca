@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pedidos clintes</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/navegacao.css">
+    <link rel="stylesheet" href="css/listagem.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="listagem-livros.html">LIVROS</a>
+            <a href="listagem-alunos.html">ALUNOS</a>
+            <a href="listagem-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <div class="painel">
+        <div class="esquerda">
+            <div>
+                <a href="cadastro-emprestimo.html">NOVO EMPRESTIMO</a>
+            </div>
+        </div>
+        <div class="meio">
+            <h1>EMPRESTIMO</h1>
+        </div>
+        <div class="direita"></div>
+    </div>
+    <div class="container-tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID EMPRESTIMO</th>
+                    <th>ID ALUNO</th>
+                    <th>ID LIVRO</th>
+                    <th>DATA EMPRESTIMO</th>
+                    <th>DATA DEVOLUÇÃO</th>
+                    <th>STATUS EMPRESTIMO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>12/03/2024</td>
+                    <td>20/03/2024</td>
+                    <td>DEVOLVIDO</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>07/11/2024</td>
+                    <td>07/12/2024</td>
+                    <td>EM ANDAMENTO</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>27/08/2023</td>
+                    <td>10/09/2023</td>
+                    <td>ATRASADO</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
